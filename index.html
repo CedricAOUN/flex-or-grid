@@ -12,10 +12,12 @@
 
   <h1 class="orange">Flex <span class="blue">ou</span> Grid</h1>
 
+  <!-- Atelier 1 -->
+
   <section id="atel1" class="dotted">
     <h1 class="orange">Atelier 1: <span class="blue">barre de navigation</span></h1>
     <nav class="flex container">
-      <p class="nav-logo white">LOGO</p>
+      <h2 class="nav-logo white">LOGO</h2>
       <ul class="white">
         <div class="normal-nav">
         <li><a>home</a></li>
@@ -26,11 +28,13 @@
       </ul>
     </nav>
     <div id="choice">
-      <h3 class="blue">Le choix: <span class="black"> Flex </span></h3>
-      <p>Layout pas trop complexe, ne necessite q'un seul flex et du padding autour </p>
+      <h3 class="blue">Le choix : <span class="black">Flex</span></h3>
+      <p><span class="blue">Jusitification :</span> Layout pas trop complexe, ne necessite q'un seul flex et du padding autour </p>
     </div>
   </section>
-  
+
+  <!-- Atelier 2 -->
+
   <section id="atel2" class="dotted">
     <h1 class="orange">Atelier 2: <span class="blue">section</span></h1>
     <section class="flex container">
@@ -69,8 +73,82 @@
     </section>
     <div id="choice">
       <h3 class="blue">Le choix: <span class="black"> Flex </span></h3>
-      <p>un peu plus complexe, mais seulement 2 flex necessaire (avec un 3eme pas necessaire sur les liens) </p>
+      <p><span class="blue">Jusitification :</span>un peu plus complexe, mais seulement 2 flex necessaire (avec un 3eme pas necessaire sur les liens) </p>
     </div>
   </section>
+
+  <!-- Atelier 3 -->
+
+  <section id="atel3" class="dotted">
+    <h1 class="orange">Atelier 3: <span class="blue">gallery</span></h1>
+    <div class="grid container">
+      <img class="rect" src="https://picsum.photos/200">
+      <img class="rect-horizontal" src="https://picsum.photos/200">
+      <img class="square-big" src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+      <img src="https://picsum.photos/200">
+    </div>
+    <div id="choice">
+      <h3 class="blue">Le choix : <span class="black">Grid</span></h3>
+      <p><span class="blue">Jusitification :</span> Certaines images sont particulières et prennent plus de place que les autres. Grid permet de modifier certaines cellules plus directement. </p>
+    </div>
+  </section>
+
+  <!-- Atelier 4 -->
+
+  <section id="atel4" class="dotted">
+    <h1 class="orange">Atelier 4: <span class="blue">cards</span></h1>
+    <div class="grid container">
+      <div class="services">
+        <h3 class="blue">Services</h3>
+        <div class="single-service">
+          <p>RH</p> <p>100h restantes</p>
+        </div>
+        <div class="single-service">
+          <p>RH</p> <p>100h restantes</p>
+        </div>
+        <div class="single-service">
+          <p>RH</p> <p>100h restantes</p>
+        </div>
+        <div class="single-service">
+          <p>RH</p> <p>100h restantes</p>
+        </div>
+        <div class="flex controls">
+          <p>7 resultats</p>
+          <a class="add-btn">Ajouter un service</a>
+        </div>
+      </div>
+      <div class="services-rh">
+        <h3>Service : RH</h3>
+        <div class="flex service-info">
+          <a href="mailto:rh@service.fr">rh@service.fr</a>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="flex service-info">
+          <p>100 heures restantes</p>
+          <i class="fa-solid fa-hourglass-start"></i>
+        </div>
+        <div class="flex service-controls">
+          <a class="btn delete">Supprimer</a>
+          <a class="btn add-user">Ajouter un utilisateur</a>
+        </div>
+      </div>
+    </div>
+    <div id="choice">
+      <h3 class="blue">Le choix : <span class="black">Grid</span></h3>
+      <p><span class="blue">Jusitification :</span> Grid pour le layout generale parcqu'on a besoin d'un espace vide, flex pour le contenu des fenetre </p>
+    </div>
+  </section>
+
 </body>
 </html>
