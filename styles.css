@@ -218,6 +218,46 @@ section h1 {
   border-radius: 10px;
 }
 
+#atel5 .container {
+  justify-content: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#atel5 .invoice {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #3A86FF;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: #3A86FF;
+  font-size: 0.9rem;
+}
+
+.uid {
+  font-weight: 600;
+}
+.price {
+  font-weight: 500;
+}
+.invoice a {
+  padding: 12px 6px;
+  border-radius: 8px;
+}
+
+.paid-btn {
+  background-color: #C4FFD8;
+  color: #5CBE7D;
+}
+.pending-btn {
+  background-color: #FFEEC4;
+  color: #F1AE00;
+}
+
 @media (max-width: 760px) {
   .normal-nav {
     display: none;
