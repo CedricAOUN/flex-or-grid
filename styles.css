@@ -48,7 +48,9 @@ section h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #3964E8;
-  padding: 0px 2rem;
+  height: 60px;
+  padding: 0px 1rem;
+  border-bottom: 5px solid #E06E3C;
 }
 
 #atel1 ul {
@@ -59,6 +61,7 @@ section h1 {
 
 .nav-logo {
   font-size: 32px;
+  font-weight: 700;
 }
 
 
@@ -71,7 +74,7 @@ section h1 {
   height: 150px;
 }
 #atel2 .card {
-  border: 2px solid #E06E3C;
+  border: 3px solid #E06E3C;
   border-radius: 5px;
   flex-direction: column;
   width: 200px;
@@ -80,6 +83,10 @@ section h1 {
 }
 #atel2 a, #atel2 p {
   padding: 0 10px;
+}
+#atel2 a {
+  font-weight: 600;
+  cursor: pointer;
 }
 #atel2 nav {
   color: #E06E3C;
