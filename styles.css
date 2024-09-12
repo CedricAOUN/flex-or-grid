@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .blue {
   color: #3964E8;
 }
@@ -12,20 +14,26 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   gap: 2rem;
-  width: 100vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 1rem;
 }
 h1, #choice h3, #choice p {
   text-align: center;
 }
+a {
+  font-weight: 600;
+  cursor: pointer;
+}
 section {
-  padding: 5rem;
-  width: 60vw;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
 }
 section h1 {
   text-align: start;
@@ -55,21 +63,28 @@ section h1 {
 
 #atel1 ul {
   list-style-type: none;
-  display: flex;
-  gap: 2rem;
 }
 
 .nav-logo {
   font-size: 32px;
   font-weight: 700;
 }
-
+.normal-nav {
+  display: flex;
+  gap: 2rem;
+}
+#burger-nav {
+  display: none;
+}
 
 #atel2 .container {
   box-sizing: border-box;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
+
 #atel2 img {
   height: 150px;
 }
@@ -84,13 +99,26 @@ section h1 {
 #atel2 a, #atel2 p {
   padding: 0 10px;
 }
-#atel2 a {
-  font-weight: 600;
-  cursor: pointer;
-}
+
 #atel2 nav {
   color: #E06E3C;
   display: flex;
   justify-content: space-between;
   padding: 5px;
+}
+
+
+@media (max-width: 760px) {
+  .normal-nav {
+    display: none;
+  }
+  #burger-nav {
+    display: inline-block;
+  }
+  section h1 {
+    text-align: center;
+  }
+  #atel2 .container {
+    justify-content: center;
+  }
 }
