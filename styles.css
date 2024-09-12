@@ -1,0 +1,89 @@
+.blue {
+  color: #3964E8;
+}
+.orange {
+  color: #E06E3C;
+}
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 2rem;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1, #choice h3, #choice p {
+  text-align: center;
+}
+section {
+  padding: 5rem;
+  width: 60vw;
+}
+section h1 {
+  text-align: start;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid; 
+}
+
+.dotted {
+  border: 3px dotted #E06E3C;
+}
+
+
+#atel1 .container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3964E8;
+  padding: 0px 2rem;
+}
+
+#atel1 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-logo {
+  font-size: 32px;
+}
+
+
+#atel2 .container {
+  box-sizing: border-box;
+  justify-content: space-between;
+  gap: 1rem;
+}
+#atel2 img {
+  height: 150px;
+}
+#atel2 .card {
+  border: 2px solid #E06E3C;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#atel2 a, #atel2 p {
+  padding: 0 10px;
+}
+#atel2 nav {
+  color: #E06E3C;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
